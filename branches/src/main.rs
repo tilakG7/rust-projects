@@ -9,7 +9,7 @@ fn main() {
         println!("In ELSE IF!");
     }
     else {
-        println!("In ELSE")
+        println!("In ELSE");
     }
 
     let y = if x == 5 { let x = 4; x + 4} else {5};
