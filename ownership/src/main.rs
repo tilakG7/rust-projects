@@ -1,14 +1,10 @@
-
-
 fn main() {
-    let mut s = String::from("hello");
-    s.push_str(", world!");
+    let mut s = String::from("Hello World!");
+    let len = getSize(&s);
+    println!("The length of {} is {}", s, len);
+}
 
-    println!("{}", s);
-
-    let s1 = String::from("Helloooooo");
-    let s2 = s1.clone();
-
-    println!("s1: {s1}");
-    println!("s2: {s2}");
+fn getSize(s: & String) -> usize {
+    // s.push_str(" My name is Tilak");
+    s.len()
 }
