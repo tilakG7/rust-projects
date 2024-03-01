@@ -12,7 +12,7 @@ fn main() {
     println!("Notice how hello and hello2 have the same value: {hello}, {hello2}");
 
     my_str = String::from("A randome sentence");
-    println!("Calling the first word function on string \"{my_str}\"");
+    println!("Calling the first word function on string \"{my_str}\""); 
     println!("{}", first_word(&my_str));
 
 }
